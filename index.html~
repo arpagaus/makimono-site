@@ -17,6 +17,10 @@
       <header>
         <h1>Makimono</h1>
         <p>Japanese offline dictionary for Android</p>
+
+
+        <p class="view"><a href="https://github.com/arpagaus">View My GitHub Profile</a></p>
+
       </header>
       <section>
         <p>Makimono is a multilingual Japanese dictionary. It contains over 200'000 translations for English, German, French, Spanish, Portuguese and Russian. Once installed, the application does not require any Internet access and works off-line. Thus it can easily be used when traveling abroad or if the cellular connection is unavailable in the air-plane or train.</p>
