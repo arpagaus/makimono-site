@@ -33,12 +33,36 @@
 	</a>
     	</header>
       <section>
-	<img src='/images/main.png' />
+	<script>
+	$("a.screenshots_group").fancybox({
+		prevEffect: 'none',
+		nextEffect: 'none',
+		loop: false,
+		fitToView: true,
+		autoSize: true,
+		helpers: {
+			title: {
+				type: 'outside'
+			}
+		}
+	});
+</script>
 
-<p>Makimono is a multilingual Japanese dictionary. It contains over 200'000 translations for English, German, French, Spanish, Portuguese and Russian. Once installed, the application does not require any Internet access and works off-line. Thus it can easily be used when traveling abroad or if the cellular connection is unavailable in the air-plane or train.</p>
-
-<p>Makimono relies on translations from the EDICT, Wadoku, Hispadic and KANJIDIC projects. Furthermore, it includes kanji stroke order diagrams from KanjiVG.</p>
-
+<a class="screenshots_group" rel="group1" href="/images/screenshots/screenshot-001.png" title="Search results">
+	<img src="/images/screenshots/screenshot-001.png" alt="" style="width:50%;height:50%;" />
+</a>
+<a class="screenshots_group" rel="group1" href="/images/screenshots/screenshot-002.png" title="Complete overview of a dictionary entry">
+	<img src="/images/screenshots/screenshot-002.png" alt="" style="width:50%;height:50%;" />
+</a>
+<a class="screenshots_group" rel="group1" href="/images/screenshots/screenshot-003.png" title="Complete overview of a kanji entry">
+	<img src="/images/screenshots/screenshot-003.png" alt="" style="width:50%;height:50%;" />
+</a>
+<a class="screenshots_group" rel="group1" href="/images/screenshots/screenshot-004.png"  title="Kanji stroke order diagram">
+	<img src="/images/screenshots/screenshot-004.png" alt="" style="width:50%;height:50%;" />
+</a>
+<a class="screenshots_group" rel="group1" href="/images/screenshots/screenshot-005.png" title="Complete overview of a dictionary entry">
+	<img src="/images/screenshots/screenshot-005.png" alt="" style="width:50%;height:50%;" />
+</a>
 
       </section>
       <footer>
